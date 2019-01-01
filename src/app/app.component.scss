@@ -6,13 +6,33 @@
 
     .main-header {
         color: white;
-        background-color: gray;
-        height: 30%;
+		background-image: url('../assets/img/AbstractArchitectureArt.jpg');
+		background-size: cover;
+		background-position: center center;
+		height: 35%;
         text-align: center;
-        padding: 1rem;
+		// opacity: 0.5;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		.main-personal-container {
+			// opacity: 1 !important;
+	
+			.main-header-img {
+				//TODO:Need a media query
+				width: 15vw;
+				height: 25vh;
+				border-radius: 50%;
+			}
+
+			.main-header-name {
+				margin: 0;
+			}
+		}
     }
 
     .main-container {
-        height: 70%;
+        height: 65%;
     }
 }
